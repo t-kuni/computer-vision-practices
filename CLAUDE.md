@@ -1,20 +1,24 @@
 # Computer Vision Practices
 
-This repository contains Jupyter notebooks for computer vision learning and practice using OpenCV and machine learning techniques.
+## Development Environment
 
-## Notebooks
+- Python with virtual environment (venv)
+- Jupyter Notebook
+- Dependencies: numpy, matplotlib, jupyter (see requirements.txt)
 
-- **cv_ex05.ipynb**: OpenCV basics - image loading, color conversion, resizing, rotation
-- **cv_ex06.ipynb**: Advanced OpenCV - thresholding, filtering, noise removal, morphological operations
-- **cv_ex07.ipynb**: Feature detection - Canny edges, Harris corners, FAST, ORB algorithms
-- **cv_ex10.ipynb**: Machine learning - MNIST digit classification using decision trees
+## Setup
 
-## Environment
+```bash
+# Activate virtual environment
+source venv/bin/activate
 
-- Python with OpenCV, NumPy, Matplotlib, scikit-learn
-- Jupyter Notebook environment
-- Google Colab compatible
+# Install dependencies
+pip install -r requirements.txt
 
-## Status
+# Start Jupyter Notebook
+jupyter notebook
+```
 
-All notebooks are complete and functional as of 2025-06-15.
+## Project Structure
+
+Contains Jupyter notebooks (cv_ex03.ipynb through cv_ex15.ipynb) for computer vision learning and practice.
