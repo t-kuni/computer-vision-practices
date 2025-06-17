@@ -29,7 +29,7 @@ pip install -r requirements.txt
 source venv/bin/activate
 
 # Jupyter Notebookを起動
-jupyter notebook
+LD_LIBRARY_PATH="" jupyter notebook
 ```
 
 ブラウザが自動的に開き、Jupyterのインターフェースが表示されます。
